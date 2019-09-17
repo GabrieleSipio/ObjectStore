@@ -1,6 +1,7 @@
 # ObjectStore
 Object Store - Laboratorio di Sistemi Operativi, Corso B Progetto di fine corso A.A. 2018/19
-Overview
+# Overview
+
 Lo scopo del progetto è quello di realizzare un object store implementato come sistema client-server, destinato a supportare le richieste di memorizzare e recuperare blocchi di dati da parte di un gran numero di applicazioni. Nel caso specifico, la connessione fra clienti e object store avviene attraverso socket su dominio locale. In particolare, il progetto consta dei seguenti file:
 - mainServer.c: qui sono gestite le azioni lato server che spaziano dalla memorizzazione, all’invio di file verso un determinato client fino all’eliminazione di un determinato file
 - mainClient.c: qui sono gestite le varie operazioni da richiedere all’object store che sono:
